@@ -68,6 +68,13 @@ table {
 
 * {
     max-width: fit-content;
+
+}
+
+body{ 
+    margin: 0 auto;
+    background-color: var(--Lavender);
+    width: 100%;
 }
 
 h1 {
@@ -101,7 +108,7 @@ h2 {
 
 #nav {
     background-color: var(--Yellow);
-    margin: auto;
+    margin: 0 auto;
     width: 100%;
     justify-content: center;
     text-align: center;
@@ -117,8 +124,11 @@ h2 {
     margin: auto;
 }
 
-nav {
-
+nav li {
+    text-align: center;
+    margin: 2em;
+    padding: 0em 5em;
+    text-align: center;
 }
 
 ul {
@@ -129,16 +139,17 @@ ul {
 }
 
 li a {
-    display: block;
+    display: inline-block;
     font-weight: bold;
-    background-color: white;
     padding: 1em 2em;
+    background-color: white;
     color: var(--Purple);
     font-family: "Inter";
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    margin: 1em;
+    margin: 0 auto;
+
 }
 
 li a:hover {
