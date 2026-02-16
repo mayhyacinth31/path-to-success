@@ -71,7 +71,7 @@ body{
     margin: 0 auto;
     background-color: var(--Lavender);
     width: 60%;
-    max-width: 900px;
+    max-width: 450px;
 }
 
 h1 {
@@ -198,4 +198,53 @@ li a:hover {
     color: var(--Purple);
     font-weight: bold;
     padding: 1rem 0;
+}
+
+#why-choose {
+    background-color: var(--Pink);
+}
+
+#why-choose h2 {
+    color: var(--White);
+    padding: 1rem;
+    text-align: left;
+}
+
+#why-choose ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+}
+
+#why-choose li {
+    font-family: "Inter";
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+}
+
+#per, #prov, #supp, #flexi {
+    width: 8em;
+    border-radius: 10%;
+    padding: 1rem;
+}
+
+#per {
+    border: 0.5rem solid var(--Teal);
+    background-color: var(--Teal);
+}
+
+#prov {
+    border: 0.5rem solid var(--Lavender);
+    background-color: var(--Lavender);
+}
+
+#supp {
+    border: 0.5rem solid var(--Yellow);
+    background-color: var(--Yellow);
+}
+
+#flexi {
+    border: 0.5rem solid var(--White);
+    background-color: var(--White);
 }
