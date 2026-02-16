@@ -66,15 +66,12 @@ table {
 
 /*Global Styles (mobile first)*/
 
-* {
-    max-width: fit-content;
-
-}
 
 body{ 
     margin: 0 auto;
     background-color: var(--Lavender);
-    width: 100%;
+    width: 60%;
+    max-width: 900px;
 }
 
 h1 {
@@ -82,6 +79,7 @@ h1 {
     font-size: 3em;
     color: white;
     text-align: center;
+    padding: 1rem;
 }
 
 h2 {
@@ -92,11 +90,10 @@ h2 {
 
 #header {
     background-color: var(--Purple);
-    width: 100%;
     padding: 2em;
     justify-content: center;
     align-content: center;
-    margin: auto;
+    margin: 0 auto;
 }
 
 #header p {
@@ -109,7 +106,6 @@ h2 {
 #nav {
     background-color: var(--Yellow);
     margin: 0 auto;
-    width: 100%;
     justify-content: center;
     text-align: center;
     padding: 1em;
@@ -125,9 +121,9 @@ h2 {
 }
 
 nav li {
-    text-align: center;
-    margin: 2em;
-    padding: 0em 5em;
+
+    margin: 1em auto;
+    align-content: center;
     text-align: center;
 }
 
@@ -139,9 +135,10 @@ ul {
 }
 
 li a {
-    display: inline-block;
+    display: block;
+    width: 100%;
     font-weight: bold;
-    padding: 1em 2em;
+    padding: 1em 0em;
     background-color: white;
     color: var(--Purple);
     font-family: "Inter";
