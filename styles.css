@@ -84,8 +84,23 @@ h1 {
 
 h2 {
     font-family: "Kavoon";
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
+}
+
+h3 {
+    font-family: "Inter";
+    font-size: 1.5em;
+}
+
+h4 {
+    font-family: "Inter";
+    font-size: 1.15em;
+}
+
+p {
+    font-family: "Inter";
+    line-height: 2.5ch;
 }
 
 #header {
@@ -152,4 +167,35 @@ li a {
 li a:hover {
     color: white;
     background-color: var(--Purple);
+}
+
+#services {
+    background-color: var(--Purple);
+}
+
+#services > h2 {
+    color: white;
+    padding: 1rem 1rem 0.5rem;
+    text-align: left;
+}
+
+#services > h3 {
+    padding: 0em 1rem;
+    font-weight: bold;
+    color: var(--Yellow);
+}
+
+#services > section {
+    background-color: var(--White);
+    margin: 1em auto;
+    width: 70%;
+    padding: 1em;
+    border: 1em solid var(--White);
+    border-radius: 5%;
+}
+
+#services h4 {
+    color: var(--Purple);
+    font-weight: bold;
+    padding: 1rem 0;
 }
