@@ -171,6 +171,7 @@ li a:hover {
 
 #services {
     background-color: var(--Purple);
+    padding: 1rem;
 }
 
 #services > h2 {
@@ -247,4 +248,45 @@ li a:hover {
 #flexi {
     border: 0.5rem solid var(--White);
     background-color: var(--White);
+}
+
+#pricing {
+    background-color: var(--Purple);
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+#pricing h2 {
+    color: var(--White);
+    text-align: left;
+    padding: 1rem 1rem 0 1rem;
+}
+
+#pricing h3 {
+    color: var(--Yellow);
+    text-align: left;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+th {
+    background-color: var(--Yellow);
+    padding: 1rem;
+    border: 1px solid var(--Yellow);
+    text-transform: uppercase;
+    font-family: "Inter";
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid var(--Yellow);
+    background-color: var(--White);
+    padding: 1rem;
+    font-family: "Inter";
 }
