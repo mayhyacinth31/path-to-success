@@ -85,12 +85,13 @@ h1 {
 h2 {
     font-family: "Kavoon";
     font-size: 2em;
-    text-align: center;
+    text-align: left;
 }
 
 h3 {
     font-family: "Inter";
     font-size: 1.5em;
+    text-align: center;
 }
 
 h4 {
@@ -177,7 +178,6 @@ li a:hover {
 #services > h2 {
     color: white;
     padding: 1rem 1rem 0.5rem;
-    text-align: left;
 }
 
 #services > h3 {
@@ -208,7 +208,6 @@ li a:hover {
 #why-choose h2 {
     color: var(--White);
     padding: 1rem;
-    text-align: left;
 }
 
 #why-choose ul {
@@ -226,7 +225,7 @@ li a:hover {
 
 #per, #prov, #supp, #flexi {
     width: 8em;
-    border-radius: 10%;
+    border-radius: 15px;
     padding: 1rem;
 }
 
@@ -289,4 +288,56 @@ td {
     background-color: var(--White);
     padding: 1rem;
     font-family: "Inter";
+}
+
+#first-step {
+    background-color: var(--Pink);
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+#first-step h2 {
+    color: var(--White);
+    text-align: left;
+    padding: 1rem;
+}
+
+#first-step p {
+    color: var(--White);
+    padding: 0 1rem .5rem 1rem;
+}
+
+#first-step a {
+    display: block;
+    padding: 1rem 5rem;
+    background-color: var(--White);
+    box-shadow: 5px 5px var(--Dark-gray);
+    border-radius: 15px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: var(--Dark-gray);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+#first-step a:hover {
+    background-color: var(--Teal);
+    color: var(--White);
+    box-shadow: 2px 2px var(--Dark-gray);
+}
+
+#copy {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: var(--Purple);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+#copy p, #copy a {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: var(--White);
+    font-size: .75rem;
 }
