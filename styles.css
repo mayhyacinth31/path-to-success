@@ -214,6 +214,7 @@ li a:hover {
     display: grid;
     grid-template-columns: auto auto;
     margin: 0 auto;
+    align-content: center;
 }
 
 #why-choose li {
@@ -221,6 +222,7 @@ li a:hover {
     font-weight: bold;
     text-align: center;
     margin: 1rem;
+    padding: 1.5rem;
 }
 
 #per, #prov, #supp, #flexi {
